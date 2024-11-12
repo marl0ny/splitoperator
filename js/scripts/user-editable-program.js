@@ -371,7 +371,7 @@ class UserEditableProgramContainer {
         let sliderDiv = document.createElement("div");
         let slider = document.createElement("input");
         slider.type = "range";
-        slider.min = "-100.0";
+        slider['min'] = "-100.0";
         slider.max = "100.0";
         slider.name = `variable-${varName}`;
         slider.value = "10.0";

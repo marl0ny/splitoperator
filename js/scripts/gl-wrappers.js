@@ -1,7 +1,7 @@
 /* This script contains custom wrapper functions and classes around 
-the WebGL API to hide a lot of the boilerplate code and to greatly
-simplify the structure of those GLSL-based simulation programs and
-their visualizations. 
+the WebGL API to hide a lot of the boilerplate and to greatly
+simplify the structure of the JavaScript/GLSL simulation and
+visualization code. 
 
 Aside from primarily consulting Mozilla's WebGL API documentation
 (https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API),

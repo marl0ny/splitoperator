@@ -21,7 +21,7 @@ def refresh_shader_js():
                 content = content.replace('\n', '\\n')
                 contents[e] = content
 
-    with open('shaders.js', 'w') as f:
+    with open('./shaders/shaders.js', 'w') as f:
         f.write('let shaders = {};\n')
         for k in contents:
             k2 = k.replace("\\", "/")
