@@ -6,7 +6,7 @@ These simulations run client side inside the web browser, and are real-time inte
 
 Some inspirations for the visual presentation and GUI are the [WebGL Superfluid Simulation](https://georgestagg.github.io/webgl_gpe/) by George Stagg, the [Visual PDE](https://visualpde.com/) project, as well as some older programs by [Daniel Schroeder](https://physics.weber.edu/schroeder/software/QuantumScattering2D.html) and [Paul Falstad](https://www.falstad.com/qm2dosc/).
 
-A playlist of videos featuring some examples is showcased [here]().
+A playlist of videos featuring some examples is showcased [here](https://www.youtube.com/playlist?list=PLLMjc99uROx64kZhqGksBi0eSHuXXCqdV).
 
 ## References:
 
