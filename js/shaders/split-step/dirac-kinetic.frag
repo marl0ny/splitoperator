@@ -126,8 +126,8 @@ vec3 getMomentum() {
                 2.0*PI*freqW/length_);
 }
 
-/*Compute the spin up eigenvector for a Pauli matrix oriented in an
-arbitrary direction. Although easily double by pencil and paper,
+/* Compute the spin up eigenvector for a Pauli matrix oriented in an
+arbitrary direction. Although easily accomplishable by pencil and paper,
 this was instead done using 
 Python with [Sympy](https://www.sympy.org/en/index.html).
 The representation used for the Pauli matrices are found here:

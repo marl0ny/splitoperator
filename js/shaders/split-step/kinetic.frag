@@ -1,4 +1,4 @@
-/* GLSL implementation of the momentum step for the split operator algorithm
+/* GLSL implementation of the momentum portion of the split operator algorithm
 
 References:
 

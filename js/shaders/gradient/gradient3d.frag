@@ -147,47 +147,6 @@ vec4 centredDiff(sampler2D tex, int i) {
     }
 }
 
-
-/* vec4 centredXDiff(sampler2D tex) {
-    // The destination texture is staggered foward relative to the source
-    // texture
-    if (staggeredMode >= 1) {
-    } else if (staggeredMode == 0) {
-        if (orderOfAccuracy >= 4)
-            return (  (1.0/12.0)*valueAt(tex, -2, 0, 0)
-                    - (2.0/3.0)*valueAt(tex, -1, 0, 0)
-                    + (2.0/3.0)*valueAt(tex,  1, 0, 0)
-                    - (1.0/12.0)*valueAt(tex,  2, 0, 0)
-                )/dr.x;
-        else
-            return 0.5*(valueAt(tex, 1, 0, 0) - valueAt(tex, -1, 0, 0))/dr.x;
-    } else if (staggeredMode <= -1) {
-
-    }
-}
-
-vec4 centredYDiff(sampler2D tex) {
-    if (orderOfAccuracy >= 4)
-        return (  (1.0/12.0)*valueAt(tex, 0, -2, 0)
-                - (2.0/3.0)*valueAt(tex, 0, -1, 0)
-                + (2.0/3.0)*valueAt(tex, 0,  1, 0)
-                - (1.0/12.0)*valueAt(tex, 0,  2, 0)
-               )/dr.y;
-    else
-        return 0.5*(valueAt(tex, 0, 1, 0) - valueAt(tex, 0, -1, 0))/dr.y;
-}
-
-vec4 centredZDiff(sampler2D tex) {
-    if (orderOfAccuracy >= 4)
-        return (  (1.0/12.0)*valueAt(tex, 0, 0, -2)
-                - (2.0/3.0)*valueAt(tex, 0, 0, -1)
-                + (2.0/3.0)*valueAt(tex, 0, 0,  1)
-                - (1.0/12.0)*valueAt(tex, 0, 0,  2)
-               )/dr.z;
-    else
-        return 0.5*(valueAt(tex, 0, 0, 1) - valueAt(tex, 0, 0, -1))/dr.z;
-}*/
-
 void main() {
     vec4 dTexdx = centredDiff(tex, X_ORIENTATION);
     vec4 dTexdy = centredDiff(tex, Y_ORIENTATION);

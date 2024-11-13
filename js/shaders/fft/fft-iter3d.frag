@@ -1,6 +1,6 @@
-/* This shader is used to implement part of the 
-Cooley-Tukey iterative radix-2 FFT algorithm for 3D data stored
-in 2D textures.
+/* This shader is used to implement the iterative part of the 
+Cooley-Tukey iterative radix-2 FFT algorithm in 3D, where
+this 3D data is formatted as a 2D texture.
 
 References:
 

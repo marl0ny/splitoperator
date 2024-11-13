@@ -1,7 +1,8 @@
 /* This shader is used to implement the iterative part of the 
 Cooley-Tukey iterative radix-2 FFT algorithm applied to a 3D array of 
-data stored as a 2D texture. 
-It is assumed that each side length of this 3D array are equal.
+data points that is formatted as a 2D texture. 
+It is assumed that the side lengths of this 3D array are equal
+to each other.
 
 References:
 

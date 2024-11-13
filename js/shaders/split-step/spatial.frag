@@ -1,5 +1,6 @@
 /* GLSL implementation of the spatial step 
-(that exponential term which only depends on position)
+(that exponential term which only depends on position and
+ is thus diagonal in the position basis)
  for the split operator algorithm
 
 References:
