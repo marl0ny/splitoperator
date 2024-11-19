@@ -1,8 +1,8 @@
 # JavaScript/WebGL Split-Operator Simulations (WIP)
 
-Interactively visualize numerical solutions to the time-dependent linear and nonlinear Schrödinger equation in [2D](https://marl0ny.github.io/split-operator-simulations/js/2d.html) and [3D](https://marl0ny.github.io/split-operator-simulations/js/3d.html) using the [split-operator method](https://www.algorithm-archive.org/contents/split-operator_method/split-operator_method.hml). Computations are primarily handled using GLSL shaders, while the front-facing UI is implemented in HTML5/Javascript. 
+Interactively visualize numerical solutions to the time-dependent linear and nonlinear Schrödinger equation in [2D](https://marl0ny.github.io/split-operator-simulations/js/2d.html) and [3D](https://marl0ny.github.io/split-operator-simulations/js/3d.html) using the [split-operator method](https://www.algorithm-archive.org/contents/split-operator_method/split-operator_method.html). Computations are primarily handled using GLSL shaders, while the front-facing UI is implemented in HTML5/Javascript. 
 
-These simulations run client side inside the web browser, and are real-time interactive. However, please note that as of now they may not work properly if at all on many handheld/mobile devices, and the 3D version requires a modern discrete GPU (such as an RTX card) to get decent frame rates.
+These simulations run client-side inside the web browser, and are real-time interactive. However, please note that as of now they may not work properly if at all on many handheld/mobile devices, and the 3D version requires a modern discrete GPU (such as an RTX card) to get decent frame rates.
 
 Some inspirations for the visual presentation and GUI are the [WebGL Superfluid Simulation](https://georgestagg.github.io/webgl_gpe/) by George Stagg, the [Visual PDE](https://visualpde.com/) project, as well as some older programs by [Daniel Schroeder](https://physics.weber.edu/schroeder/software/QuantumScattering2D.html) and [Paul Falstad](https://www.falstad.com/qm2dosc/).
 
@@ -11,7 +11,7 @@ A playlist of videos featuring some examples is showcased [here](https://www.you
 ## References:
 
 Split-operator method:
- - [The Arcane Algorithm Archive - Split-operator method](https://www.algorithm-archive.org/contents/split-operator_method/split-operator_method.hml)
+ - [The Arcane Algorithm Archive - Split-operator method](https://www.algorithm-archive.org/contents/split-operator_method/split-operator_method.html)
  - [Wikipedia - Split-step method](https://en.wikipedia.org/wiki/Split-step_method)
  - [Arxiv - Accelerating the Fourier split operator method via graphics processing units](https://arxiv.org/abs/1012.3911)
 
